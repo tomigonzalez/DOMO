@@ -1,8 +1,9 @@
 const Navbar = () => {
+  const estiloPersonalizado = {
+    height: "10vh",
+  };
   return (
-    <header>
-      <nav></nav>
-    </header>
+    <nav className=" w-100 bg-secondary" style={estiloPersonalizado}></nav>
   );
 };
 
