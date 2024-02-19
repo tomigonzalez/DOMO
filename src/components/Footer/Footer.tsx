@@ -61,11 +61,11 @@ const Footer = () => {
             </div>
             <div className="  ">
               <a
-                href="#"
+                href="https://github.com/tomigonzalez"
                 className="text-decoration-none color"
                 target="_blank"
               >
-                <i className="bi bi-twitter-x fs-1"></i>
+                <i className="bi bi-github fs-1"></i>
               </a>
             </div>
           </div>
