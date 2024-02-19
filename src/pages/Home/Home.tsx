@@ -2,13 +2,13 @@ import "../../style.css";
 
 const Home = () => {
   return (
-    <article className="bg-primary d-flex align-items-center estiloPersonalizadoHome">
+    <article className="d-flex align-items-center estiloPersonalizadoHome bg-custom3">
       <div className="p-5 flex-column">
         <div className="d-flex align-items-center mb-5">
-          <span className="rounded-5 border border-1 border-dark fs-3 medidas">
+          <span className="rounded-5 border border-1 border-dark fs-3 medidas color2">
             A
           </span>
-          <h1 className="m-0">MainHeroContent</h1>
+          <h1 className="m-0 color3">MainHeroContent</h1>
         </div>
         <div className="col-1 bg-dark medidaNueva"></div>
 
@@ -21,9 +21,9 @@ const Home = () => {
           </p>
         </div>
         <div className="container-fluid d-flex t p-0 mb-5">
-          <button className="col-1 p-0 d-flex ">
+          <button className="col-md-2 col-lg-1 col-sm-3 col-3 p-0 d-flex borders">
             {" "}
-            <div className="">{">"}</div>
+            <div className="border1">{">"}</div>
           </button>
         </div>
       </div>

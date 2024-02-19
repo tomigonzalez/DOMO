@@ -46,6 +46,77 @@
 .paddingservice {
   padding-left: 2rem;
 }
+
+.cuadro {
+  height: 50%;
+}
+.borders {
+  background-color: #736155;
+  justify-content: end;
+  border: 1px solid #fefefe;
+}
+.borders:hover {
+  background-color: #352d27;
+}
+
+.border1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 1.5rem;
+  border-left: 1px solid rgb(255, 255, 255);
+}
+.bg-custom {
+  background-color: #71a3c4;
+}
+.bg-custom2 {
+  background-color: #f8f7f5;
+}
+.bg-custom3 {
+  background-color: #dee8f1;
+}
+.bg-custom4 {
+  background-color: #7c9bc3;
+}
+.bg-custom5 {
+  background-color: #a5b9d4;
+}
+.bg-custom6 {
+  background-color: #d8e1ee;
+}
+.bg-custom7 {
+  background-color: #b8c8df;
+}
+.bg-custom8 {
+  background-color: #efeeec;
+}
+.bg-custom9 {
+  background-color: #eae4e2;
+}
+.bg-custom10 {
+  background-color: #706154;
+}
+.bg-custom11 {
+  background-color: #cbc3c0;
+}
+.bg-custom12 {
+  background-color: #799fc0;
+}
+.bg-custom13 {
+  background-color: #88adce;
+}
+.color {
+  color: #c9e2f3;
+}
+.color2 {
+  color: #706154;
+}
+.color3 {
+  color: #7c9bc3;
+}
+.color4 {
+  color: white;
+}
 @media (max-width: 992px) {
   .estiloPersonalizado {
     justify-content: space-between;
@@ -59,6 +130,7 @@
     display: none;
   }
   .displayOf {
+    color: #71a3c4;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -69,6 +141,7 @@
     padding-left: 1rem;
   }
   .ubicacionServices {
+    height: 100%;
     align-items: flex-end;
   }
 }
@@ -82,5 +155,16 @@
   .estiloPersonalizadoServices {
     height: 100vh;
     flex-flow: column;
+  }
+  .ubicacionServices {
+    display: inline;
+    align-items: center;
+    width: 100%;
+  }
+  .paddingservice {
+    padding-left: 0rem;
+  }
+  .cuadro {
+    height: 100%;
   }
 }
