@@ -1,0 +1,86 @@
+.estiloPersonalizado {
+  height: 10vh;
+  justify-content: space-around;
+}
+.estiloPersonalizadoHeader {
+  height: 5vh;
+}
+.display {
+  display: flex;
+}
+.estiloPersonalizadoHome {
+  padding-left: 3rem;
+  height: 80vh;
+}
+
+.medidas {
+  height: 3rem;
+  width: 3rem;
+}
+
+.medidaNueva {
+  height: 3px;
+}
+
+.estiloPersonalizadoGrid {
+  height: 45vh;
+}
+.estiloPersonalizadoServices {
+  height: 80vh;
+}
+.medidasServices {
+  height: 3rem;
+  width: 3rem;
+}
+.ubicacionServices {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.medidaNuevaServices {
+  height: 3px;
+}
+.displayOf {
+  display: none;
+}
+.paddingservice {
+  padding-left: 2rem;
+}
+@media (max-width: 992px) {
+  .estiloPersonalizado {
+    justify-content: space-between;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+  .estiloPersonalizadoHeader {
+    display: none;
+  }
+  .display {
+    display: none;
+  }
+  .displayOf {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    cursor: pointer;
+  }
+  .estiloPersonalizadoHome {
+    height: 55vh;
+    padding-left: 1rem;
+  }
+  .ubicacionServices {
+    align-items: flex-end;
+  }
+}
+@media (max-width: 767px) {
+  .estiloPersonalizadoHome {
+    height: 100vh;
+  }
+  .estiloPersonalizadoGrid {
+    height: 55vh;
+  }
+  .estiloPersonalizadoServices {
+    height: 100vh;
+    flex-flow: column;
+  }
+}
