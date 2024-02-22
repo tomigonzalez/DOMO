@@ -20,7 +20,7 @@ const Footer = () => {
               </div>
               <div className="col-lg-5 col-md-12 ms-lg-3 ms-md-0 d-flex flex-column gap-2 mt-lg-0 mt-md-2 mt-2">
                 <div className="w-100 d-flex  color4 bg-custom7 ps-lg-1 ps-md-0">
-                  <p className="m-0">Desarrollador Front-End</p>
+                  <p className="m-0">Desarrollador Front End</p>
                 </div>
                 <div className="w-100 d-flex  color4 bg-custom7 ps-lg-1 ps-md-0">
                   <p className="m-0">Desarrollador Freelance</p>
@@ -29,10 +29,10 @@ const Footer = () => {
                   <p className="m-0">Diseñador UX/UI</p>
                 </div>
                 <div className="w-100 d-flex  color4 bg-custom7 ps-lg-1 ps-md-0">
-                  <p className="m-0">Desarrollador Back-End</p>
+                  <p className="m-0">Desarrollador Back End</p>
                 </div>
                 <div className="w-100 d-flex  color4 bg-custom7 ps-lg-1 ps-md-0">
-                  <p className="m-0">Desarrollador Full-Stack</p>
+                  <p className="m-0">Desarrollador Full Stack</p>
                 </div>
               </div>
             </div>
