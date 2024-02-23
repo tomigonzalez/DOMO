@@ -5,7 +5,7 @@ const Services = () => {
         <article className="container-fluid d-flex align-items-center p-0 estiloPersonalizadoServices">
           <div className="container flex-column col-md-7 col-xs-12 ps-md-5 ps-xs-0 mt-2">
             <div className="d-flex align-items-center mb-5">
-              <span className="rounded-5 border color2 border-1 border-dark fs-3 medidasServices">
+              <span className="rounded-5 d-flex align-items-center justify-content-center border color2 border-1 border-dark fs-3 medidasServices">
                 B
               </span>
               <h1 className="m-0 color3"> Main Service Offering</h1>
@@ -38,7 +38,7 @@ const Services = () => {
         <article className="container-fluid d-flex align-items-center p-0 estiloPersonalizadoServices">
           <div className="container flex-column col-md-7 col-xs-12 ps-md-5 ps-xs-0 mt-2">
             <div className="d-flex align-items-center mb-5">
-              <span className="rounded-5 border color2 border-1 border-dark fs-3 medidasServices">
+              <span className="rounded-5 d-flex align-items-center justify-content-center border color2 border-1 border-dark fs-3 medidasServices">
                 C
               </span>
               <h1 className="m-0 color3"> Main Service Offering</h1>
@@ -71,7 +71,7 @@ const Services = () => {
         <article className="container-fluid d-flex align-items-center p-0 estiloPersonalizadoServices">
           <div className="container flex-column col-md-7 col-xs-12 ps-md-5 ps-xs-0 mt-2">
             <div className="d-flex align-items-center mb-5">
-              <span className="rounded-5 border color2 border-1 border-dark fs-3 medidasServices">
+              <span className="rounded-5 d-flex align-items-center justify-content-center border color2 border-1 border-dark fs-3 medidasServices">
                 D
               </span>
               <h1 className="m-0 color3"> Main Service Offering</h1>

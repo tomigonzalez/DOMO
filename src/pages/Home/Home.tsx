@@ -5,7 +5,7 @@ const Home = () => {
     <article className="d-flex align-items-center estiloPersonalizadoHome bg-custom3">
       <div className="p-5 flex-column">
         <div className="d-flex align-items-center mb-5">
-          <span className="rounded-5 border border-1 border-dark fs-3 medidas color2">
+          <span className="rounded-5 border border-1 border-dark fs-3 medidas color2 d-flex align-items-center justify-content-center">
             A
           </span>
           <h1 className="m-0 color3">MainHeroContent</h1>
